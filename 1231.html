@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="container2">
+        <div class="scrollmenu">
+            <a href="#">Dudon</a>
+            <a href="#">Mama</a>
+            <a href="#">Papich</a>
+            <a href="#">Papich</a>
+            <a href="#">Papich</a>
+            <a href="#">Papich</a>
+            <a href="#">Papich</a>
+            <a href="#">Papich</a>
+           
+        </div>
+    </div>
+  </div>
+  <style>
+.container {
+    
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    width: 98%;
+}
+div.scrollmenu {
+    margin-left: 0;
+    display: flex;
+    background-color: aquamarine;
+    overflow: auto;
+    width: 100%;
+    white-space: nowrap;
+}
+div.scrollmenu a {
+    font-size: 50px;
+    display: inline-block;
+    color: rgb(163, 116, 161);
+    text-align: center;
+    padding: 150px;
+    text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+.container2 {
+
+        width: 100%;
+    }
+div.scrollmenu {
+   
+        overflow: auto;
+        width: 100%;
+        white-space: nowrap;
+    }
+.master {
+    width: 100%;
+        overflow: hidden;
+    }
+}
+ </style>    
