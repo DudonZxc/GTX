@@ -1,41 +1,51 @@
 <div class="container">
     <div class="container2">
         <div class="scrollmenu">
-            <a href="#">Dudon</a>
-            <a href="#">Mama</a>
-            <a href="#">Papich</a>
-            <a href="#">Papich</a>
-            <a href="#">Papich</a>
-            <a href="#">Papich</a>
-            <a href="#">Papich</a>
-            <a href="#">Papich</a>
-           
+            <div class="fon">
+                <a href="#">Dudon</a>
+                <a href="#">Mama</a>
+                <a href="#">Papich</a>
+                <a href="#">Papich</a>
+                <a href="#">Papich</a>
+                <a href="#">Papich</a>
+                <a href="#">Papich</a>
+                <a href="#">Papich</a>
+            <div>
         </div>
     </div>
   </div>
   <style>
+    .fon {
+        background-color: aqua;
+        width: 100%;
+        display: flex;
+        overflow: auto;
+    }
 .container {
-    
+    width: 100%;
+    background-color: aqua;
     display: flex;
     justify-content: center;
 }
 .container2 {
-    width: 98%;
+    
+    width: 100%;
 }
 div.scrollmenu {
-    margin-left: 0;
+    
+    margin-left: 10%;
     display: flex;
-    background-color: aquamarine;
     overflow: auto;
     width: 100%;
     white-space: nowrap;
 }
 div.scrollmenu a {
+    margin-left: 10%;
     font-size: 50px;
     display: inline-block;
     color: rgb(163, 116, 161);
     text-align: center;
-    padding: 150px;
+    padding: 100px;
     text-decoration: none;
 }
 @media screen and (max-width: 700px) {
@@ -46,11 +56,11 @@ div.scrollmenu a {
 div.scrollmenu {
    
         overflow: auto;
-        width: 100%;
+        width: 110%;
         white-space: nowrap;
     }
 .master {
-    width: 100%;
+    width: 110%;    
         overflow: hidden;
     }
 }
